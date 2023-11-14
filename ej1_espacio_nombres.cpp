@@ -22,6 +22,10 @@ namespace matematicas{
     int main() {
         cout << "Suma: " << Matematicas::suma(5, 3) << std::endl;
         cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
+        cout << multiplicacion::multiplicacion(5, 3) << std::endl;
+        cout << division::division(5, 3) << std::endl;
         return 0;
     }
+
 }
+

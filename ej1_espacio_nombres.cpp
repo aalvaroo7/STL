@@ -21,7 +21,9 @@ namespace Matematicas {
             int potencia(int a, int b) {
                 return a ^ b;
             }
-
+            int raiz_cuadrada(int a, int b) {
+                return a ^ 1 / b;
+            }
 
             int main() {
                 cout << "Suma: " << Matematicas::suma(5, 3) << std::endl;

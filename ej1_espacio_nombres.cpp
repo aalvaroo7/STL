@@ -22,7 +22,7 @@ namespace Matematicas {
     int potencia(int a, int b) {
         return a ^ b;
     }
-    int raiz_cuadrada(int a, int b) {
+    int raiz_cuadrada(int a) {
         return sqrt(a);
     }
 
@@ -31,8 +31,8 @@ int main() {
     cout << "Suma: " << Matematicas::suma(5, 3) << std::endl;
     cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
     cout << "multiplicacion:" << Matematicas::multiplicacion(5, 3) << std::endl;
-    cout <<  "Division:" << Matematicas::division(5, 3) << std::endl;
-    cout <<  "potencia:" << Matematicas::potencia(5, 3) << std::endl;
-    cout << "Raiz cuadrada:" << Matematicas::raiz_cuadrada(5, 3) << std::endl;
+    cout <<  "Division:" << Matematicas::division(10, 5) << std::endl;
+    cout <<  "potencia:" << Matematicas::potencia(5, 2) << std::endl;
+    cout << "Raiz cuadrada:" << Matematicas::raiz_cuadrada(36) << std::endl;
     return 0;
 }

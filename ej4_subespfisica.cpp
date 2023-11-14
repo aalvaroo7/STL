@@ -10,13 +10,12 @@ namespace Ciencia {
     }
     namespace Celec {
         const double k = 8987551787;
-    }
-        doble calcularEnergia(double masa) {
-            return ;
+        double calcularEnergia(double q) {
+            return k * q;
 
     }
 }
-
+namespace
 int main() {
     std::cout << "Energia: " << Ciencia::Fisica::calcularEnergia(10) << std::endl;
     return 0;

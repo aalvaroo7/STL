@@ -14,4 +14,13 @@ int main() {
  cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
     return 0;
 }
-//
+//respuesta proporcionada por ruben a lo que le añado como nos ha sido requerido cuatro ejemplos
+//de espacio de nombres que seran
+//multiplicacion, division, potencia y raiz cuadrada
+
+namespace matematicas{
+    int multiplicacion(int a,int b){
+        return a*b;
+    }
+
+}

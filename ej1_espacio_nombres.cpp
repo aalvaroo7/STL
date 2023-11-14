@@ -19,8 +19,14 @@ namespace Matematicas {
     int division(int a, int b) {
         return a / b;
     }
-    int potencia(int a, int b) {
-        return a ^ b;
+    double calcularPotencia(double base, int exponente) {
+        double resultado = 1.0;
+
+        for (int i = 0; i < exponente; ++i) {
+            resultado *= base;
+        }
+
+        return resultado;
     }
     int raiz_cuadrada(int a) {
         return sqrt(a);

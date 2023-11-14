@@ -1,6 +1,7 @@
 #include <iostream>
+
 namespace Geometria {
-    double calcularAreaTriangulo(double base, double altura) {
-        return (base * altura) / 2;
+    double calcularAreaCirculo(double radio) {
+        return 3.14 * radio * radio;
     }
 }

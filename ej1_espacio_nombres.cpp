@@ -30,5 +30,7 @@ namespace Matematicas {
                 cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
                 cout << Matematicas::multiplicacion(5, 3) << std::endl;
                 cout << Matematicas::division(5, 3) << std::endl;
+                cout << Matematicas::potencia(5, 3) << std::endl;
+                cout << Matematicas::raiz_cuadrada(5, 3) << std::endl;
                 return 0;
             }

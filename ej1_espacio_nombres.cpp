@@ -1,60 +1,38 @@
 #include <iostream>
-#include <cstdlib>
 #include <cmath>
-
-//respuesta proporcionada por ruben a lo que le añado como nos ha sido requerido cuatro ejemplos
-//de espacio de nombres que seran
-//multiplicacion, division, potencia y raiz cuadrada
-namespace Matematicas {
-    int suma(int a, int b);
-
-    int resta(int a, int b);
-
-    int multiplicacion(int a, int b);
-
-    int division(int a, int b);
-
-    int potencia(int a, int b);
-
-    int raiz_cuadrada(int a, int b);
-}
+#include <cstdlib>
 using namespace std;
 namespace Matematicas {
     int suma(int a, int b) {
         return a + b;
     }
-
     int resta(int a, int b) {
         return a - b;
     }
-
 //respuesta proporcionada por ruben a lo que le añado como nos ha sido requerido cuatro ejemplos
 //de espacio de nombres que seran
 //multiplicacion, division, potencia y raiz cuadrada
+
     int multiplicacion(int a, int b) {
         return a * b;
     }
-
     int division(int a, int b) {
         return a / b;
-
     }
-
     int potencia(int a, int b) {
         return a ^ b;
     }
-
     int raiz_cuadrada(int a, int b) {
-        return a ^ 1 / b;
+        return sqrt(a);
     }
 
-    int main() {
-        cout << "Suma: " << Matematicas::suma(5, 3) << std::endl;
-        cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
-        cout << "multiplicacion:" << Matematicas::multiplicacion(5, 3) << std::endl;
-        cout <<  "Division:" << Matematicas::division(5, 3) << std::endl;
-        cout <<  "potencia:" << Matematicas::potencia(5, 3) << std::endl;
-        cout << "Raiz cuadrada:" << Matematicas::raiz_cuadrada(5, 3) << std::endl;
-        return 0;
-    }
+}
+int main() {
+    cout << "Suma: " << Matematicas::suma(5, 3) << std::endl;
+    cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
+    cout << "multiplicacion:" << Matematicas::multiplicacion(5, 3) << std::endl;
+    cout <<  "Division:" << Matematicas::division(5, 3) << std::endl;
+    cout <<  "potencia:" << Matematicas::potencia(5, 3) << std::endl;
+    cout << "Raiz cuadrada:" << Matematicas::raiz_cuadrada(5, 3) << std::endl;
+    return 0;
 }

@@ -38,7 +38,7 @@ int main() {
     cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
     cout << "multiplicacion:" << Matematicas::multiplicacion(5, 3) << std::endl;
     cout <<  "Division:" << Matematicas::division(10, 5) << std::endl;
-    cout <<  "potencia:" << Matematicas::potencia(5, 2) << std::endl;
+    cout <<  "potencia:" << Matematicas::calcularPotencia(5, 2) << std::endl;
     cout << "Raiz cuadrada:" << Matematicas::raiz_cuadrada(36) << std::endl;
     return 0;
 }
